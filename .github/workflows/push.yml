@@ -12,7 +12,7 @@ jobs:
 
 
       - name: 새 파일
-        run: touch test.txt
+        run: touch testtest.txt
       - name: 커밋 & 푸시
         run: |
           git config --global user.name 'jun220' # 유저명
